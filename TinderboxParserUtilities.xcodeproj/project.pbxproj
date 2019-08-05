@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1668C7210B49EC5C4193EEF7 /* Pods_TinderboxParserUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597EDCD455BD63EEBAD6D34B /* Pods_TinderboxParserUtilities.framework */; };
+		1B49E9A322F8DD57003AAF42 /* TinderboxParserUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B49E9A222F8DD57003AAF42 /* TinderboxParserUtilities.h */; };
+		1B49E9A522F8DD57003AAF42 /* TinderboxParserUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B49E9A422F8DD57003AAF42 /* TinderboxParserUtilities.m */; };
+		1B49E9AD22F8DD6F003AAF42 /* TinderboxIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49E9AC22F8DD6F003AAF42 /* TinderboxIO.swift */; };
+		1B49E9AF22F8DDF3003AAF42 /* XMLParserTbx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49E9AE22F8DDF3003AAF42 /* XMLParserTbx.swift */; };
+		1B49E9B122F8DE09003AAF42 /* TbxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49E9B022F8DE09003AAF42 /* TbxItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B49E99F22F8DD57003AAF42 /* libTinderboxParserUtilities.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTinderboxParserUtilities.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B49E9A222F8DD57003AAF42 /* TinderboxParserUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinderboxParserUtilities.h; sourceTree = "<group>"; };
+		1B49E9A422F8DD57003AAF42 /* TinderboxParserUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderboxParserUtilities.m; sourceTree = "<group>"; };
+		1B49E9AB22F8DD6F003AAF42 /* TinderboxParserUtilities-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinderboxParserUtilities-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B49E9AC22F8DD6F003AAF42 /* TinderboxIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderboxIO.swift; sourceTree = "<group>"; };
+		1B49E9AE22F8DDF3003AAF42 /* XMLParserTbx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParserTbx.swift; sourceTree = "<group>"; };
+		1B49E9B022F8DE09003AAF42 /* TbxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TbxItem.swift; sourceTree = "<group>"; };
+		25FFBAEE4404291F28961A16 /* Pods-TinderboxParserUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderboxParserUtilities.debug.xcconfig"; path = "Target Support Files/Pods-TinderboxParserUtilities/Pods-TinderboxParserUtilities.debug.xcconfig"; sourceTree = "<group>"; };
+		597EDCD455BD63EEBAD6D34B /* Pods_TinderboxParserUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderboxParserUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09E3B20963220BCC994EBEA /* Pods-TinderboxParserUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderboxParserUtilities.release.xcconfig"; path = "Target Support Files/Pods-TinderboxParserUtilities/Pods-TinderboxParserUtilities.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B49E99D22F8DD57003AAF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1668C7210B49EC5C4193EEF7 /* Pods_TinderboxParserUtilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B49E99622F8DD57003AAF42 = {
+			isa = PBXGroup;
+			children = (
+				1B49E9AC22F8DD6F003AAF42 /* TinderboxIO.swift */,
+				1B49E9AE22F8DDF3003AAF42 /* XMLParserTbx.swift */,
+				1B49E9B022F8DE09003AAF42 /* TbxItem.swift */,
+				1B49E9A122F8DD57003AAF42 /* TinderboxParserUtilities */,
+				1B49E9A022F8DD57003AAF42 /* Products */,
+				1B49E9AB22F8DD6F003AAF42 /* TinderboxParserUtilities-Bridging-Header.h */,
+				F94A4AA3078C6852485F498B /* Pods */,
+				34BEC6FA46844A907FC6C709 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B49E9A022F8DD57003AAF42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B49E99F22F8DD57003AAF42 /* libTinderboxParserUtilities.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B49E9A122F8DD57003AAF42 /* TinderboxParserUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1B49E9A222F8DD57003AAF42 /* TinderboxParserUtilities.h */,
+				1B49E9A422F8DD57003AAF42 /* TinderboxParserUtilities.m */,
+			);
+			path = TinderboxParserUtilities;
+			sourceTree = "<group>";
+		};
+		34BEC6FA46844A907FC6C709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				597EDCD455BD63EEBAD6D34B /* Pods_TinderboxParserUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F94A4AA3078C6852485F498B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25FFBAEE4404291F28961A16 /* Pods-TinderboxParserUtilities.debug.xcconfig */,
+				E09E3B20963220BCC994EBEA /* Pods-TinderboxParserUtilities.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B49E99B22F8DD57003AAF42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49E9A322F8DD57003AAF42 /* TinderboxParserUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B49E99E22F8DD57003AAF42 /* TinderboxParserUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B49E9A822F8DD57003AAF42 /* Build configuration list for PBXNativeTarget "TinderboxParserUtilities" */;
+			buildPhases = (
+				DB58C80F2B239E3DAAEBF717 /* [CP] Check Pods Manifest.lock */,
+				1B49E99B22F8DD57003AAF42 /* Headers */,
+				1B49E99C22F8DD57003AAF42 /* Sources */,
+				1B49E99D22F8DD57003AAF42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderboxParserUtilities;
+			productName = TinderboxParserUtilities;
+			productReference = 1B49E99F22F8DD57003AAF42 /* libTinderboxParserUtilities.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B49E99722F8DD57003AAF42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "michael isbell";
+				TargetAttributes = {
+					1B49E99E22F8DD57003AAF42 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 1B49E99A22F8DD57003AAF42 /* Build configuration list for PBXProject "TinderboxParserUtilities" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B49E99622F8DD57003AAF42;
+			productRefGroup = 1B49E9A022F8DD57003AAF42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B49E99E22F8DD57003AAF42 /* TinderboxParserUtilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB58C80F2B239E3DAAEBF717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinderboxParserUtilities-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B49E99C22F8DD57003AAF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49E9A522F8DD57003AAF42 /* TinderboxParserUtilities.m in Sources */,
+				1B49E9B122F8DE09003AAF42 /* TbxItem.swift in Sources */,
+				1B49E9AF22F8DDF3003AAF42 /* XMLParserTbx.swift in Sources */,
+				1B49E9AD22F8DD6F003AAF42 /* TinderboxIO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B49E9A622F8DD57003AAF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1B49E9A722F8DD57003AAF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1B49E9A922F8DD57003AAF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FFBAEE4404291F28961A16 /* Pods-TinderboxParserUtilities.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 979MPXHXFC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TinderboxParserUtilities-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1B49E9AA22F8DD57003AAF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09E3B20963220BCC994EBEA /* Pods-TinderboxParserUtilities.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 979MPXHXFC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TinderboxParserUtilities-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B49E99A22F8DD57003AAF42 /* Build configuration list for PBXProject "TinderboxParserUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49E9A622F8DD57003AAF42 /* Debug */,
+				1B49E9A722F8DD57003AAF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B49E9A822F8DD57003AAF42 /* Build configuration list for PBXNativeTarget "TinderboxParserUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49E9A922F8DD57003AAF42 /* Debug */,
+				1B49E9AA22F8DD57003AAF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B49E99722F8DD57003AAF42 /* Project object */;
+}

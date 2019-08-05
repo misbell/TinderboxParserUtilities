@@ -1,0 +1,6 @@
+framework module Pods_TinderboxParserUtilities {
+  umbrella header "Pods-TinderboxParserUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}
